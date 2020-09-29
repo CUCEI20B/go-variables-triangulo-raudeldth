@@ -3,5 +3,10 @@ package main
 import "fmt"
 
 func main()  {
-	fmt.Println("Hola Mundo!") // eliminar esta línea
+	var base float32
+	var altura float32
+	fmt.Scan(&base)
+	fmt.Scan(&altura)
+	area := base * altura / 2
+	fmt.Println(area)
 }
